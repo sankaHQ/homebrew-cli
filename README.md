@@ -3,7 +3,6 @@
 Install the tap and formula:
 
 ```bash
-brew tap sankaHQ/tap
 brew install sankaHQ/tap/sanka
 ```
 
