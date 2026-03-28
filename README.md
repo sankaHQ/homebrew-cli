@@ -3,7 +3,8 @@
 Install the tap and formula:
 
 ```bash
-brew install sankaHQ/tap/sanka
+brew tap sankaHQ/cli
+brew install sankaHQ/cli/sanka
 ```
 
 This tap publishes the generated `sanka.rb` formula from the
