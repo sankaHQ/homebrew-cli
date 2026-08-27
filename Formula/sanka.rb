@@ -3,8 +3,8 @@ class Sanka < Formula
 
   desc "Thin command-line wrapper for the Sanka API"
   homepage "https://github.com/sankaHQ/sanka-cli"
-  url "https://github.com/sankaHQ/sanka-cli/releases/download/v0.1.3/sanka_cli-0.1.3.tar.gz"
-  sha256 "bfa6159df1a720d20f3cedbbfc6479e8dc88b1062a2d0e6971cca0255e743c4c"
+  url "https://github.com/sankaHQ/sanka-cli/releases/download/v0.1.4/sanka_cli-0.1.4.tar.gz"
+  sha256 "42aa9372f80b0249bb78bfb0dfbe87a633c25a6f1da1de54ce8a115580058186"
   license "MIT"
 
   depends_on "python@3.12"
@@ -16,8 +16,8 @@ class Sanka < Formula
     end
 
     resource "cryptography" do
-      url "https://files.pythonhosted.org/packages/1f/99/d1c90d6041656cc6ee229dc99cd67fd0cd5aec3c5f7d72fffc27cc750054/cryptography-49.0.0.tar.gz"
-      sha256 "f89660a348f4f78a92366240a61404e337586ef7f5909a2fef59ca88ef505493"
+      url "https://files.pythonhosted.org/packages/de/41/6cbdcf9142d00fe82836fbb51e503e58088575cf7a0fe1dbff6695bf0840/cryptography-50.0.0.tar.gz"
+      sha256 "eeac2acb5a20ed25e0ad6d1df9891a520b78b404266b6d11778f25d5d691a6c9"
     end
 
     resource "jeepney" do
@@ -47,8 +47,8 @@ class Sanka < Formula
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/3d/fa/656b739db8587d7b5dfa22e22ed02566950fbfbcdc20311993483657a5c0/click-8.3.1.tar.gz"
-    sha256 "12ff4785d337a1bb490bb7e9c2b1ee5da3112e94a8622f26a6c77f5d2fc6842a"
+    url "https://files.pythonhosted.org/packages/76/d4/81420972a676e8ffea40450d8c8c92943e7218a78fe9b64359836cc9876b/click-8.4.2.tar.gz"
+    sha256 "9a6cea6e60b17ebe0a44c5cc636d94f09bd66142c1cd7d8b4cd731c4917a15f6"
   end
 
   resource "h11" do
