@@ -3,8 +3,8 @@ class Sanka < Formula
 
   desc "Thin command-line wrapper for the Sanka API"
   homepage "https://github.com/sankaHQ/sanka-cli"
-  url "https://github.com/sankaHQ/sanka-cli/releases/download/v0.1.4/sanka_cli-0.1.4.tar.gz"
-  sha256 "42aa9372f80b0249bb78bfb0dfbe87a633c25a6f1da1de54ce8a115580058186"
+  url "https://github.com/sankaHQ/sanka-cli/releases/download/v0.1.5/sanka_cli-0.1.5.tar.gz"
+  sha256 "d04b2f9c34ecc0880da68c6278b696f56532de843ae90c5146d4a1a04a40965f"
   license "MIT"
 
   depends_on "python@3.12"
