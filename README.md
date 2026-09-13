@@ -1,8 +1,21 @@
 # Homebrew Tap for Sanka CLI
 
+Install Sanka with its own Python runtime on macOS/Linux:
+
+```bash
+curl -fLsS https://raw.githubusercontent.com/sankaHQ/homebrew-cli/main/install.sh -o /tmp/sanka-install.sh
+sh /tmp/sanka-install.sh
+sanka doctor
+```
+
+This public repository distributes the reviewed installer alongside the matching
+Homebrew formula. See [installation and recovery](docs/install.md) for uv, pip,
+Windows and existing installations.
+
 Install the tap and formula:
 
 ```bash
+brew trust --formula sankahq/cli/sanka
 brew tap sankaHQ/cli
 brew install sankaHQ/cli/sanka
 ```
@@ -13,6 +26,7 @@ If you previously installed `sanka` from the older `sankaHQ/tap`
 ```bash
 brew uninstall sanka
 brew untap sankaHQ/tap
+brew trust --formula sankahq/cli/sanka
 brew tap sankaHQ/cli
 brew install sankaHQ/cli/sanka
 ```
