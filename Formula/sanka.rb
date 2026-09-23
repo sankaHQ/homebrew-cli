@@ -3,8 +3,8 @@ class Sanka < Formula
 
   desc "CLI for hosted APIs and local migrations"
   homepage "https://sanka.com"
-  url "https://files.pythonhosted.org/packages/0c/93/a22372ff872fca74dfb9cba7ce33562fcce3171b6daffbe3af9269266955/sanka_cli-0.2.13.tar.gz"
-  sha256 "02844809aa74de2365dffd9bc6b9d31f10941afe2952e20a4a1d58476d07d3f3"
+  url "https://files.pythonhosted.org/packages/e6/c4/e49f9e69043099f66c8647d0cf85387c514ac6f332a42eeadb88ec88f230/sanka_cli-0.2.15.tar.gz"
+  sha256 "b2b8854a6630f9a6f11773d215e9001859bf290e01963e61e465cb4533229f69"
   license all_of: ["Apache-2.0", "AGPL-3.0-only"]
 
   depends_on "pkgconf" => :build
@@ -66,8 +66,8 @@ class Sanka < Formula
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/5f/f7/abb373e5757eaec4b922b92f97ec8d6d7e057cf06778247604fbc4e7c3f3/idna-3.19.tar.gz"
-    sha256 "5e0811a4383b21dc5838069f801c4fb62113b7447663d2530d2bd6e77b49bf15"
+    url "https://files.pythonhosted.org/packages/f5/08/8eea9d4b8302028f3abb2c0813953f7aec26d33b7a8960ed760e65ff29fa/idna-3.20.tar.gz"
+    sha256 "a7db850025b95ded1eae8a46181a1a6c56c92c96f0e2b005d9ff8dc0210cab44"
   end
 
   resource "jaraco-classes" do
@@ -111,8 +111,8 @@ class Sanka < Formula
   end
 
   resource "platformdirs" do
-    url "https://files.pythonhosted.org/packages/53/18/f3bb8ef0d3b930692343da8aa4d3cbcd6749477c053959395ac81965a6e9/platformdirs-4.11.8.tar.gz"
-    sha256 "f23abafea7dd4276d1f29104b83598d7dcc567cafd07c9c951e66665645437fc"
+    url "https://files.pythonhosted.org/packages/ea/dd/65804b0c2925a1c821a05502ea57517b69a073ff400d25ab9faa3a2cf012/platformdirs-4.11.12.tar.gz"
+    sha256 "e8dc1cb58f1153fd7f61db1374317770baababec2480b37b8f01c6cc25b45267"
   end
 
   resource "pycparser" do
