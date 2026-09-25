@@ -3,8 +3,8 @@ class Sanka < Formula
 
   desc "CLI for hosted APIs and local migrations"
   homepage "https://sanka.com"
-  url "https://files.pythonhosted.org/packages/73/bf/b60ccc1cfcc07fa401611da772eb2943d0269715d619a414703154918abe/sanka_cli-0.3.0.tar.gz"
-  sha256 "fd8cefdbb07bafca9852430ab3b9fbe6b53141a5f82df30957ebc06ee742b05d"
+  url "https://files.pythonhosted.org/packages/02/56/dffc59e838bb5a7b295228f5287d6392658ac3ed58464b2db60cf2e721a6/sanka_cli-0.3.1.tar.gz"
+  sha256 "a14d6f003d26e2b36091a3d55739db3c38fb23e92114ba5fa5a14024bbd48de7"
   license all_of: ["Apache-2.0", "AGPL-3.0-only"]
 
   depends_on "pkgconf" => :build
