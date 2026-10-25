@@ -3,8 +3,8 @@ class Sanka < Formula
 
   desc "CLI for hosted APIs and local migrations"
   homepage "https://sanka.com"
-  url "https://files.pythonhosted.org/packages/75/eb/ac1a5400d73edfd71ba34212e51d33076255e88e99e105724e62ac7a17fc/sanka_cli-0.3.12.tar.gz"
-  sha256 "48ad0423f8c4c6293d0466323a9fcd81d9a46aa144917ec5fce3ad5f15b0e16c"
+  url "https://files.pythonhosted.org/packages/72/c1/6b743ceda852b830bc1be5b4afcf8e5284576712f26f6408106f710c86d7/sanka_cli-0.3.13.tar.gz"
+  sha256 "272623e5fef6f37bc25b66958089d2cb16a83fa0f123356bfb47aa5d9cbd58e4"
   license all_of: ["Apache-2.0", "AGPL-3.0-only"]
 
   depends_on "pkgconf" => :build
@@ -31,8 +31,8 @@ class Sanka < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/a6/bd/1436c50cc46699de0230fbaacc1d1de7bfec413176099949e9d5112e88f2/certifi-2026.10.19.tar.gz"
-    sha256 "035c1e85572b141bf1c3a3eff0e33a8eb74917522f2559075ff8d2fea780a1ae"
+    url "https://files.pythonhosted.org/packages/fd/11/b524cbd9bbdaca58608e4cf4053fd463417549e1959fa8d3aa18319f9555/certifi-2026.10.23.tar.gz"
+    sha256 "a9895e6e2758b371e0545e321a3a8fd1fcfd9829ada8824a936dfb16aaaf36cd"
   end
 
   resource "cffi" do
@@ -126,8 +126,8 @@ class Sanka < Formula
   end
 
   resource "pycparser" do
-    url "https://files.pythonhosted.org/packages/da/a8/c5fdbeee588bb8ada9458774f43adf1bdd30bd59157055142183e769a024/pycparser-3.11.tar.gz"
-    sha256 "d875f09c3507d00e1aba0eecc6dcadc1352f30fff09dc6bff2f1c2935e97c2bc"
+    url "https://files.pythonhosted.org/packages/cb/27/eeb9f307bf07060f3d9f9aa0fb8c15b01bdfded0a941e4b2719c7f94cacd/pycparser-3.12.tar.gz"
+    sha256 "f03387877eab82ce01bbdfd0ba7252ee55a90b1c708d5129e2ce915475cf1db6"
   end
 
   resource "pygments" do
